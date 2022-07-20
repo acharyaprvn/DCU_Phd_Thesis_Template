@@ -1,0 +1,70 @@
+\documentclass[12pt, oneside]{book}
+\usepackage{style}
+
+\import{./tex}{abb.tex}
+
+\begin{document}
+
+\import{./tex}{title.tex}
+
+\onehalfspacing
+\frontmatter
+\chapter*{Declaration}
+% \addcontentsline{toc}{chapter}{Declaration}
+\import{./tex}{declaration.tex}
+
+\chapter*{Dedication}
+% \addcontentsline{toc}{chapter}{Dedication}
+\import{./tex}{dedication.tex}
+
+\chapter*{Acknowledgments}
+% \addcontentsline{toc}{chapter}{Acknowledgments}
+\import{./tex}{ack.tex}
+
+\singlespacing
+\renewcommand*\contentsname{Table of Contents}
+
+\tableofcontents
+
+\listoffigures
+% \addcontentsline{toc}{chapter}{List of Figures}
+
+\listoftables
+% \addcontentsline{toc}{chapter}{List of Tables}
+
+\printglossary[type=\acronymtype,title=List of Abbreviation, toctitle=List of Abbreviation,nonumberlist]
+
+\newpage
+\import{./tex}{abstract.tex}
+% \addcontentsline{toc}{chapter}{Abstract}
+
+\newpage
+
+\doublespacing
+\mainmatter
+
+\chapter{Introduction}
+\import{./tex/chapters}{intro.tex}
+\chapter{Chapter One Title}
+\import{./tex/chapters/}{chapter1.tex}
+\chapter{Chapter Two Title}
+\import{./tex/chapters}{chapter2.tex}
+\chapter{Chapter Three Title}
+\import{./tex/chapters}{chapter3.tex}
+\chapter{Conclusion}
+\import{./tex/chapters}{conclusion.tex}
+
+\appendix
+\chapter{Appendix A Title}
+\import{./tex/}{appendixa.tex}
+
+\chapter{Appendix B Tile}
+\import{./tex/}{appendixb.tex}
+
+% Bibliography:
+\clearpage
+\printbibliography
+
+\clearpage
+
+\end{document}

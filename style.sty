@@ -1,0 +1,35 @@
+\ProvidesPackage{style}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./img/} }
+\usepackage{lipsum}
+\usepackage{datetime}
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
+\usepackage[a4paper,width=210mm,top=20mm,bottom=20mm,right=20mm,left=35mm]{geometry}
+
+\usepackage{setspace}
+
+\usepackage{import}
+
+% Header and Footer setting
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Thesis Title}
+\cfoot{\thepage}
+%\cfoot{Chapter \thechapter}
+%\rfoot{Author Name}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+%%
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref} 
+
+
+\usepackage[style=authoryear,sorting=ynt]{biblatex}
+\addbibresource{references.bib}
+
