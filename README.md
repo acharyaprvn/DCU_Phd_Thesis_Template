@@ -9,33 +9,27 @@ Please refer to **_Section 9_** of the [guideline.](https://www.dcu.ie/sites/def
 _Accessed on : July 2022._ 
 ****
 
-
-1. `thesis.tex` is the main LaTeX file for this document.
-2. Design/rules placed in `style.sty`. 
-<!-- 3. All images placed inside the `img` folder. -->
-<!-- 4. All other tex files are inside the `tex` folder. -->
-
 Directory Strructure:
 ```
-├── README.md
-├── img
+├── README.md                   <!-- This readme file. -->
+├── img                         <!-- Folder containing all images used in this project. -->
 │   └── dcu_logo.png
-├── references.bib
-├── style.sty
-├── tex
-│   ├── abb.tex
-│   ├── abstract.tex
-│   ├── ack.tex
-│   ├── appendixa.tex
-│   ├── appendixb.tex
-│   ├── chapters
+├── references.bib              <!-- Bibtex file for Bibliography. -->
+├── style.sty                   <!-- File with all the style/format for the Thesis. -->
+├── tex                         <!-- Folder containing all the .tex files; A single file for each section/chapters in the thesis. -->
+│   ├── abb.tex                 <!-- Abbreviation -->
+│   ├── abstract.tex            <!-- Abstract -->
+│   ├── ack.tex                 <!-- Ackknowledgement -->
+│   ├── appendixa.tex           <!-- Appendix A -->
+│   ├── appendixb.tex           <!-- Appendix B -->
+│   ├── chapters                <!-- Folder containing inidvidual Chapters. -->
 │   │   ├── chapter1.tex
 │   │   ├── chapter2.tex
 │   │   ├── chapter3.tex
 │   │   ├── conclusion.tex
 │   │   └── intro.tex
-│   ├── declaration.tex
-│   ├── dedication.tex
-│   └── title.tex
-└── thesis.tex
+│   ├── declaration.tex         <!-- Declaration -->
+│   ├── dedication.tex          <!-- Dedication -->
+│   └── title.tex               <!-- Title page -->
+└── thesis.tex                  <!-- Main file for this project>
 ```
