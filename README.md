@@ -9,7 +9,7 @@ Please refer to **_Section 9_** of the [guideline.](https://www.dcu.ie/sites/def
 _Accessed on : July 2022._ 
 ****
 
-Directory Strructure:
+Directory Structure:
 ```
 ├── README.md                   <!-- This readme file. -->
 ├── img                         <!-- Folder containing all images used in this project. -->
@@ -19,10 +19,10 @@ Directory Strructure:
 ├── tex                         <!-- Folder containing all the .tex files; A single file for each section/chapters in the thesis. -->
 │   ├── abb.tex                 <!-- Abbreviation -->
 │   ├── abstract.tex            <!-- Abstract -->
-│   ├── ack.tex                 <!-- Ackknowledgement -->
+│   ├── ack.tex                 <!-- Acknowledgement -->
 │   ├── appendixa.tex           <!-- Appendix A -->
 │   ├── appendixb.tex           <!-- Appendix B -->
-│   ├── chapters                <!-- Folder containing inidvidual Chapters. -->
+│   ├── chapters                <!-- Folder containing individual Chapters. -->
 │   │   ├── chapter1.tex
 │   │   ├── chapter2.tex
 │   │   ├── chapter3.tex
